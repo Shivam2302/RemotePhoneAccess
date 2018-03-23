@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RemotePhoneAccess</string>
+    <string name="sample_device_admin_description">device admin</string>
+    <string name="sample_device_admin">device</string>
+</resources>

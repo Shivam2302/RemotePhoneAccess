@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:id="@+id/change_fields">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Primary Email Address"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help:"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All the information the number who is accessing your phone is sent to this number."
+        android:inputType="textMultiLine"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/field_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Primary Email Address "
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/current_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="201551076@iiitvadodara.ac.in"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/new_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Primary Email Address"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/new_field_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/cancel1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</LinearLayout>
