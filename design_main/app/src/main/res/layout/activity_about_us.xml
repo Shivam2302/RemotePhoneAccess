@@ -71,10 +71,6 @@
                 android:layout_height="wrap_content"
                 android:text="Kriti Singhal"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Vikesh Meena"/>
 
             <TextView
                 android:layout_width="wrap_content"
